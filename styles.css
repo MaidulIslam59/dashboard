@@ -4,6 +4,27 @@
   padding: 0;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+li {
+  float: left;
+}
+li a:hover {
+  color: #000;
+}
+li a {
+  display: block;
+  color: #562eff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 .container {
   background-color: #d4ccdb;
   padding: 40px 0;
